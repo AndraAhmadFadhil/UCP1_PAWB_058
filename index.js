@@ -12,7 +12,7 @@ app.use('/bibit', bibitRoute);
 
 app.get('/', (req, res) => {
     console.log(['GET ROUTE']);
-    res.send('selamat pagi');
+    res.send('Andra Ahmad Fadhil (20220140058)');
 });
 
 app.listen(PORT, () => 
