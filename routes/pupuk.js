@@ -10,3 +10,5 @@ const pupuk = [
 router.get('/', (req, res) => {
     res.json(pupuk);
 });
+
+export default router;
