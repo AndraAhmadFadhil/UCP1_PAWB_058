@@ -6,3 +6,7 @@ const pupuk = [
     { nama: 'Kompos', jenis: 'Organik', harga: 50000 },
     { nama: 'ZA', jenis: 'Kimia', harga: 75000 }
 ];
+
+router.get('/', (req, res) => {
+    res.json(pupuk);
+});
