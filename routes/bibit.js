@@ -10,3 +10,5 @@ const bibit = [
 router.get('/', (req, res) => {
     res.json(bibit);
 });
+
+export default router;
