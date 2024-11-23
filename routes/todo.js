@@ -38,3 +38,5 @@ router.put('/:id', (req, res) => {
         updatedTodo: todo
     });
 });
+
+export default router;
