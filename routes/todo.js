@@ -1,3 +1,8 @@
+import express from 'express';
+const router = express.Router();
+
+let todos = [];
+
 router.get('/', (req, res) => {
     res.json(todos);
 });
