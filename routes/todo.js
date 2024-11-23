@@ -12,6 +12,8 @@ router.post('/', (req, res) => {
     res.status(201).json(newTodo); 
 });
 
+module.exports = router;
+
 router.delete('/:id', (req, res) => {
     const todoIndex = todos.findIndex(t => t.id === parseInt(req.params.id));
     if (todoIndex === -1) return res.status(404).json({ message: 'Tugas tidak ditemukan' });
